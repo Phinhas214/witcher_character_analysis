@@ -1,0 +1,20 @@
+
+Create relationships 
+	- create a window of a certain size (5). 
+	- perform a rolling window through the text. 
+	- identify all the characters that appear in the same window.
+
+
+	- after aggregating all the relationships of the charcters through 
+	  through the rolling window algorithm, I added a new feature for the
+	  the weight of the relationships. 
+	- This weight signifies how often a certain relationship between charcters 
+	  show up in the text. e.g: Geralt --> Ciri shows up 85 times. 85 would be the 
+	  weight of this relationship. This weight also includes the vice versa relationship. 
+		- Data cleaning: in order to get the weight of the character relationships I 
+		  had to clean up the dataset by sorting the rows by alphabetical order and 
+		  merge the cases where a-->b and b-->a. 
+
+
+	- used NetworkX library to create graph visualizations from the dataframes created earlier. 
+	- 
